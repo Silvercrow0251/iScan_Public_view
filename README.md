@@ -27,6 +27,27 @@ iScan is licensed under Apache License version 2.0.
 ## Downloads
 
 <details>
+  <summary><strong>v1.0.5 - Email, Navigation, and UI Improvements</strong></summary>
+  <br/>
+  <p><strong>New:</strong></p>
+  <ul>
+    <li>This update improves the password reset email link by enhancing its appearance and legitimacy. Clear instructions, identifiable branding elements, and trustworthy content and design have been added to improve authenticity. <a href="https://drive.google.com/file/d/15aHGchYDGnMb3aE1r4mRX240-RGYIGXy/view?usp=share_link">Email Reset Link</a></li>
+    <li>Improved the app's navigation on the Home Screen. Previously, pressing the back button would lead users to the Splash Screen instead of exiting. The updated version addresses this by displaying a Toast message before exiting, offering users a moment to confirm their action. Moreover, inconsistencies in back navigation across screens have been resolved, resulting in a more seamless experience. These improvements prioritize usability and prevent unintended closures of the app.</li>
+    <li>Resolved issues with UI elements not displaying correctly on specific smartphone devices. In the previous version, certain devices experienced problems where UI components were displayed incorrectly, resulting in a suboptimal user experience. To fix this, I identified and addressed the underlying issues related to layout, sizing, alignment, responsiveness, and compatibility with various screen sizes or resolutions. As a result, the updated version of the app ensures that UI elements are now correctly displayed on a wider range of smartphones.</li>
+  </ul>
+  <br/>
+  <p><strong>Release Versions:</strong></p>
+  <ul>
+    <li><strong>iScan v1.0.5</strong></li>
+    <li><strong>iScan v1.0.4</strong></li>
+    <li><strong>iScan v1.0.3</strong></li>
+    <li><strong>iScan v1.0.2</strong></li>
+    <li><strong>iScan v1.0.1</strong></li>
+    <li><strong>iScan v1.0.0</strong></li>
+  </ul>
+</details>
+
+<details>
   <summary><strong>v1.0.4 - Enhanced User Experience and Improved UI</strong></summary>
   <br/>
   <p><strong>New:</strong></p>
