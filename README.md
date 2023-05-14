@@ -27,6 +27,27 @@ iScan is licensed under Apache License version 2.0.
 ## Downloads
 
 <details>
+  <summary><strong>v1.0.6 - Enhanced User Data Recording for Non-Google Sign-In Accounts</strong></summary>
+  <br/>
+  <p><strong>New:</strong></p>
+  <ul>
+    <li>Fixed an issue where only Google-signed-in users had their usernames recorded due to the ease of verification provided by Firebase for Google accounts. Now, for users who signed up within the app, their email will be recorded for every CRUD operation. This update ensures that Google-signed-in users, who benefit from Firebase's verification process, continue to have their usernames displayed for every CRUD operation. For users who signed up directly within the app using alternative email providers, their email addresses will be recorded instead of usernames, considering the differences in verification processes.</li>
+    
+  </ul>
+  <br/>
+  <p><strong>Release Versions:</strong></p>
+  <ul>
+    <li><strong>iScan v1.0.6</strong></li>
+    <li><strong>iScan v1.0.5</strong></li>
+    <li><strong>iScan v1.0.4</strong></li>
+    <li><strong>iScan v1.0.3</strong></li>
+    <li><strong>iScan v1.0.2</strong></li>
+    <li><strong>iScan v1.0.1</strong></li>
+    <li><strong>iScan v1.0.0</strong></li>
+  </ul>
+</details>
+
+<details>
   <summary><strong>v1.0.5 - Email, Navigation, and UI Improvements</strong></summary>
   <br/>
   <p><strong>New:</strong></p>
@@ -306,6 +327,18 @@ Create a function for Material Date and Time Picker:
         });
 ```
 
+Dropdown List to Create Categories: [Image Preview](https://drive.google.com/file/d/1p_dZRJS8nIsCadCifYVtUlXEas9NIcxP/view?usp=share_link)
+
+```java
+    <string-array name="categories">
+        <item>Office Supplies</item>
+        <item>Arts and Crafts Materials</item>
+        <item>Electronic Equipment</item>
+        <item>Food Supplies</item>
+        <item>Stockpiled Equipment</item>
+    </string-array>
+```
+
 ## Google Sheets Integration: <strong>[Google Sheets]</strong>
 <table>
   <tr>
@@ -405,6 +438,16 @@ Follow the steps in this guide to backup and recover your data, and always keep 
     </td>
   </tr>
 </table>
+
+## Additional Software (Barcode and QR Code Generator)
+The Barcode and QR Code Generator is a software application developed using Python and created with the PyCharm coding tool. This software allows users to generate barcode and QR code images and save them into a designated folder. It provides a simple and convenient way to create and store various types of codes for different purposes. <a href="https://drive.google.com/drive/folders/1UcwkmG3CYkeEOHJUOuyubXq3YSdQNG8G?usp=share_link">Project Link</a></li>
+
+### Features
+
+1. Barcode Generation: The software supports the generation of random barcode numbers. The generated barcode will consist of random numbers based on the specified format.
+2. QR Code Generation: The software enables the creation of QR codes with alphanumeric combinations.
+3. Image Saving: Once the barcode or QR code is generated, the software allows users to save the resulting image into a specified folder on their computer. This feature ensures easy access and organization of the generated codes.
+4. User-Friendly Interface: The software offers a simple and intuitive user interface, making it easy for users to generate codes quickly. The interface provides clear instructions and ensures a smooth user experience.
 
 # References
 - Firebase Cloud Firestore - https://firebase.google.com/docs/firestore
