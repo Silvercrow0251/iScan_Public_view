@@ -10,7 +10,7 @@
 
 ## Summary
 
-Introducing iScan, a free inventory management app to help keep track of your products in real-time. This app is designed to make tracking inventory simple and efficient. With features like barcode and QR code scanning, users can quickly add items to their inventory by simply scanning the product label. The app also integrates with Google Sheets, making it easy to update inventory data and share it with other team members in real-time.
+Introducing iScan, an inventory management app to help keep track of your products in real-time. This app is designed to make tracking inventory simple and efficient. With features like barcode and QR code scanning, users can quickly add items to their inventory by simply scanning the product label. The app also integrates with Google Sheets, making it easy to update inventory data and share it with other team members in real-time.
 
 But that's not all! The app also includes a powerful search function that allows users to quickly find items in their inventory by name, barcode, or QR code. This feature saves time and makes it easier to keep track of inventory levels. Additionally, users can easily add items to their inventory by manually entering product information.
 
